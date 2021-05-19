@@ -1,0 +1,9 @@
+spring:
+  security.oauth2.client:
+    provider:
+      maskinporten.issuer-uri: https://ver2.maskinporten.no/
+    registration:
+      maskinporten-client-credentials:
+        client-id: 1337
+        provider: maskinporten
+        scope: test:test
